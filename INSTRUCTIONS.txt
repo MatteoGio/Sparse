@@ -1,0 +1,46 @@
+INSTRUTIONS by Giorgi Matteo, 517183 & Quarta Andrea, 517881
+
+=================================================================================================
+						ISTRUZIONI per utilizzare i test aggiuntivi
+=================================================================================================
+
+Nel Makefile è stato aggiunto il flag (-O3) affinché gcc ottimizzi il codice e
+sono stati scritti due test aggiuntivi:
+
+	test_five.c
+		che testa tutte le funzioni presenti nella libreria con matrici aventi pochi elementi
+		(invocabile con make test5)
+
+	time_execution.c
+		che testa la rapidità di inserimento, somma, prodotto e trasposta con relativi
+		risultati in secondi per matrici molto grosse. *
+		(invocabile con make testTime)
+
+oltre ai file richiesti da consegna:
+
+	sparse.c
+		che contiene tutte le funzioni di libreria richieste
+
+	Makefile
+		un makefile personalizzato per eseguire i test aggiuntivi
+
+	out_test_five.check
+		che contiene l'output atteso per il test_five, necessario per invocare la diff
+
+	gruppo.txt
+		che contiene i dati dei creatori
+
+	MY_README.TXT
+		questo file
+
+Per poter utilizzare la libreria e i test forniti, decomprimere "GiorgiMatteo_QuartaAndrea-f1.tar"
+e copiare i suddetti files all'interno della directory SPARSE fornita nel "kit kit_f1.tar"
+
+==================================================================================================
+
+*testTime eseguito con CPU Intel Core i5-2540M @ 2.60GHz
+su matrici sparse 100000x100000, restituisce i seguenti risultati:
+	- riempimento casuale: 0.459150 sec
+	- somma: 0.368994 sec
+	- prodotto: 23.851557 sec
+	- trasposta: 0.776978 sec
