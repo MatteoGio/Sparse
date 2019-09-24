@@ -1,2 +1,2 @@
 # Sparse
-Sviluppo di un programmainsieme di funzioni che lavorano su matrici sparse
+Sviluppo di un programma/insieme di funzioni che lavorano su matrici sparse
