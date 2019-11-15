@@ -1,6 +1,7 @@
 # Sparse
 
 ## Progetto di midterm per l'esame di *Sistemi operativi e laboratorio*
+
 Il progetto prevede la realizzazione di un **insieme di funzioni C che lavorano su matrici sparse di double**. Si intendono *sparse* la matrici che contengo una bassissima percentuale di elementi diversi da 0. Queste matrici vengono solitamente rappresentate registrando solo gli elementi diversi da 0 e la loro posizione. Nel nostro caso utilizzeremo un array di puntatori a righe che contiene NULL se la riga contiene tutti valori uguali a zero o la lista delle colonne e dei valori diversi da zero.
 
 ---
