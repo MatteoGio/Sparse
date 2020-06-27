@@ -2,4 +2,4 @@
 
 Below the the midterm project specifications (written in italian) for the *Operating system lab* exam. The goal was to write a C library that allows to handle sparce matrices.
 
-+ <b>[Project specs](https://nbviewer.jupyter.org/github/MatteoGiorgi/Membox/blob/master/membox16.pdf)</b>
++ <b>[Project specs](https://nbviewer.jupyter.org/github/MatteoGiorgi/sparse/blob/master/src/sparse.pdf)</b>
